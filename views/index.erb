@@ -25,11 +25,11 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-          <li><a href="/account">Account</a></li>
-          <li><a href="/subject-line-commands">Hacks</a></li>
-          <li><a href="/support">Support</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Hacks</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
 				</ul>
 			</nav>
 
@@ -46,7 +46,7 @@
 								<h1><strong>eMailGrouper</strong></h1>
 							</header>
               <%= markdown(:home, layout: false) %>
-							<a href="#work" class="button button-big">Learn about what I do</a>
+              <%= erb(:mcSignup, layout: false) %>
 						</div>
 					</div>
 				</article>
@@ -58,15 +58,9 @@
 						<div class="row">
 							<div class="12u">
 								<hr />
-								<h3>Find me on ...</h3>
+								<h3>Find us on ...</h3>
 								<ul class="social">
-									<li class="twitter"><a href="http://twitter.com/n33co" class="fa fa-twitter"><span>Twitter</span></a></li>
-									<li class="facebook"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-									<li class="dribbble"><a href="http://dribbble.com/n33" class="fa fa-dribbble"><span>Dribbble</span></a></li>
-									<li class="linkedin"><a href="#" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
-									<li class="tumblr"><a href="#" class="fa fa-tumblr"><span>Tumblr</span></a></li>
-									<li class="googleplus"><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-									<li class="github"><a href="http://github.com/n33" class="fa fa-github"><span>Github</span></a></li>
+									<li class="twitter"><a href="http://twitter.com/emailgrouper" class="fa fa-twitter"><span>Twitter</span></a></li>
 									<!--
 									<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
 									<li class="instagram"><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
@@ -83,13 +77,6 @@
 							</div>
 						</div>
 					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; 2013 Jane Doe</li>
-							<li>Images: <a href="http://fotogrph.com">fotogrph</a></li>
-							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
-						</ul>
-					</footer>
 				</article>
 			</div>
 
