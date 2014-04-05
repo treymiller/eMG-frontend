@@ -1,1 +1,1 @@
-##Sign up to be notified when we launch the Beta:
+##Sign up to be notified when we launch the Beta
