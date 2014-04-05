@@ -9,6 +9,6 @@ class App < Sinatra::Base
   }
 
   get '/' do
-    erb :index
+    erb :index, layout: :main_layout
   end
 end
