@@ -1,0 +1,1 @@
+eMailGrouper is the world's easiest way to interact with the small groups of people in your life, using the email account you already have.
