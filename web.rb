@@ -20,4 +20,8 @@ class App < Sinatra::Base
     erb :pricing, layout: :main_layout
   end
 
+  get '/hacks' do
+    erb :hacks, layout: :main_layout
+  end
+
 end
