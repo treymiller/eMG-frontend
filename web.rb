@@ -16,4 +16,8 @@ class App < Sinatra::Base
     erb :why, layout: :main_layout
   end
 
+  get '/pricing' do
+    erb :pricing, layout: :main_layout
+  end
+
 end
