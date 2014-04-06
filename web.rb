@@ -37,4 +37,8 @@ class App < Sinatra::Base
     erb :hacks, layout: :main_layout
   end
 
+  get '/terms' do
+    erb :tos, layout: :main_layout
+  end
+
 end
