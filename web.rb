@@ -6,7 +6,20 @@ class App < Sinatra::Base
     serve 'js', from: 'views/js'
     serve 'css', from: 'views/css'
     serve 'images', from: 'views/images'
+
+    css :application, '/css/app.css', [
+      '/css/skel-noscript.css',
+      '/css/style.css',
+      '/css/style-desktop.css'
+    ]
+
+    js :application, '/js/app.js', [
+      '/js/config.js',
+      '/js/skel.min.js'
+    ]
+
   }
+  
 
   get '/' do
     erb :index, layout: :main_layout
