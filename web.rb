@@ -1,3 +1,5 @@
+require 'sinatra/base'
+require 'sinatra/assetpack'
 class App < Sinatra::Base
   set :root, File.dirname(__FILE__)
   register Sinatra::AssetPack
@@ -17,6 +19,9 @@ class App < Sinatra::Base
       '/js/config.js',
       '/js/skel.min.js'
     ]
+
+    js_compression :jsmin
+    css_compression :simple
 
   }
   
