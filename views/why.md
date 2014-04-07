@@ -1,6 +1,6 @@
 Does anyone really need a **new** way to communicate with their friends, co-workers, book club, or classmates?
 
-No. But we all need a **better** way. Instead of joining yet another social media platform, installing a new app, or learning a whole new website to navigate, what if you could just keep using the Inbox and Address Book you already have?
+No. But, we all need a **better** way. Instead of joining yet another social media platform, installing a new app, or learning a whole new website to navigate, what if you could just keep using the Inbox and Address Book you already have?
 
 If you've ever:
 
